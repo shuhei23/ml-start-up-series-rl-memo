@@ -50,3 +50,26 @@ git は C:\Program Files\Git\cmd
 (rl-book) でgitが通らない場合は，windowsのpathにgit を通しておけば，
 (rl-book) にpathがコピーされてうまくうごく
 
+### 仮想環境のエクスポートとインポート
+
+#### 仮想環境のエクスポート
+
+仮想環境の情報をエクスポートするには以下のコマンドをAnaconda/miniconda prompt上で実行
+
+``` shell
+    $ conda env export > [出力ファイル名]
+```
+
+具体例：YAML形式でエクスポート
+
+``` shell
+    $ conda env export > environment.yml
+```
+
+#### 仮想環境のインポート
+
+YAMLファイルなどから設定を取り込んで仮想環境を構築する
+
+``` shell
+$ conda env create --file [ファイル名]
+```
