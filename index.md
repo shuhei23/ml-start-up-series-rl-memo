@@ -32,13 +32,13 @@ conda create -n 環境名　python=X.X
 * pythonのバージョンによっては他のパッケージとモメる
 
 miniconda:
-```shell=
+
 自分のユーザー名/.conda/envs/rl-book/ の中に入っている(kazumichi)
-```
+
 Anaconda:
-```shell=
+
 自分のユーザー名/anaconda3/envs/rl-book/ の中に入っている(とよだ)
-```
+
 * 管理者権限でしかファイル作成できないときは，プロンプトを管理者権限で立ち上げる
 
 仮想環境の削除:
